@@ -1,4 +1,8 @@
 import React from "react";
+import MessageList from "./components/MessageList";
+import SendMessageForm from "./components/SendMessageForm";
+import RoomList from "./components/RoomList";
+import NewRoomForm from "./components/NewRoomForm";
 
 class App extends React.Component {
   constructor() {
@@ -8,8 +12,11 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1>Hello CodeSandbox</h1>
-        <h2>Start editing to see some magic happen!</h2>
+        <RoomList />
+        <MessageList />
+        <SendMessageForm />
+        <NewRoomForm />
+        // Chatkit
       </div>
     );
   }
