@@ -16,7 +16,6 @@ class App extends React.Component {
         <MessageList />
         <SendMessageForm />
         <NewRoomForm />
-        // Chatkit
       </div>
     );
   }
